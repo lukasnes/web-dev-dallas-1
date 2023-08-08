@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+    height: 100px;
+}
+
+aside {
+    background-color: darkgray;
+    width: 100px;
+    min-height: calc(100vh - 100px);
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float:right
+}
+
+#content {
+    min-height: calc(100vh - 150px);
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    float: bottom;
+}

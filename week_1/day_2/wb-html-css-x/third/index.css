@@ -1,0 +1,39 @@
+header {
+    height: 100px;
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+#logo {
+    height: 90px;
+    width: 90px;
+    background-color: #58c5ea;
+}
+
+main {
+    height: 150px;
+    padding: 50px;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.color-bar {
+    height: 150px;
+}
+
+#blue {
+    background-color: blue;
+}
+#turqoise {
+    background-color: turquoise;
+}
+#lime {
+    background-color: rgb(168, 242, 168);
+}
+#yellow {
+    background-color: yellow;
+}

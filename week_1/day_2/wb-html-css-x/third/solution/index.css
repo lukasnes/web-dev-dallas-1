@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  height: 100px;
+  width: 100%;
+}
+
+.row-big {
+  height: 200px;
+  width: 100%;
+}
+
+.row-1 {
+  background-color: #d8d8d8;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.row-1-div {
+  width: 50px;
+  height: 50px;
+  background-color: #4a90e2;
+}
+
+.row-2 {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.row-3 {
+  background-color: #4a90e2;
+}
+
+.row-4 {
+  background-color: #50e3c2;
+}
+
+.row-5 {
+  background-color: #b8e986;
+}
+
+.row-6 {
+  background-color: #f8e71c;
+}
