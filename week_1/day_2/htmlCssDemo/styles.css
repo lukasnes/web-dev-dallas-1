@@ -1,0 +1,49 @@
+header {
+    background-color: blue;
+    height: 100px;
+    /* width: 500px; */
+}
+
+main {
+    min-height: calc(100vh - 140px);
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    padding-top: 20px;
+    /* background-color: red; */
+}
+
+.font-white {
+    color: white;
+    text-align: center;
+}
+
+.boxes {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+
+#biggest {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+#floater {
+    float: right;
+}
+
+.assembly {
+    display: inline-block;
+}
