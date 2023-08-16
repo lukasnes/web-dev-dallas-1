@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <h1>Css: possition, Flex and Overflow demo</h1>
+    <h2>Position examples</h2>
+
+    <section>
+      <h3>Static</h3>
+      <div class="container">
+        <div class="box blue">One</div>
+        <div class="box pink">Static</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Relative</h3>
+      <div class="container">
+        <div id="toppest" class="box blue">One</div>
+        <div id="relative-box" class="box pink">Relative</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Fixed</h3>
+      <div class="container">
+        <div class="box blue">One</div>
+        <div id="fixed-box" class="box pink">Fixed</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Absolute</h3>
+      <div class="container">
+        <div class="box blue">One</div>
+        <div id="absolute-box" class="box pink">Absolute</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Sticky</h3>
+      <div id="container-sticky" class="container">
+        <div class="box blue">One</div>
+        <div id="sticky-box" class="box pink">Sticky</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+    </section>
+
+    <h2>Display examples</h2>
+    <section>
+      <h3>Block</h3>
+      <div id="block-container">
+        <div class="box blue">One</div>
+        <div class="box pink">Block</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Inline</h3>
+      <div id="inline-container">
+        <div class="inline-box box blue">One</div>
+        <div class="inline-box box pink">Inline</div>
+        <div class="inline-box box blue">Three</div>
+        <div class="inline-box box blue">Four</div>
+      </div>
+
+      <h3>Inline Block</h3>
+      <div id="inline-block-container">
+        <div class="inline-block-box box blue">One</div>
+        <div class="inline-block-box box pink">Inline Block</div>
+        <div class="inline-block-box box blue">Three</div>
+        <div class="inline-block-box box blue">Four</div>
+      </div>
+    </section>
+
+    <h2>Flex Examples</h2>
+    <section id="flex-section">
+        <h3>Default flex (initializing)</h3>
+      <div id="flex">
+        <div class="box blue">One</div>
+        <div class="box pink">Flex</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Flex direction: column</h3>
+      <div id="flex-column">
+        <div class="box blue">One</div>
+        <div class="box pink">Flex</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Flex wrap</h3>
+      <div id="flex-wrap">
+        <div class="box blue">One</div>
+        <div class="box pink">Flex wrap</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Distibution space flex</h3>
+      <div id="flex-space">
+        <div class="box blue">One</div>
+        <div class="box pink">Flex Spacing</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+      <h3>Centering content</h3>
+      <div id="flex-centering">
+        <div class="box blue">One</div>
+        <div class="box pink">Flex centering</div>
+        <div class="box blue">Three</div>
+        <div class="box blue">Four</div>
+      </div>
+
+    </section>
+
+    <h2>Overflow examples</h2>
+    <section id="Overflow-section">
+
+        <h3>Overflow visible</h3>
+        <div class="overflow" id="overflow-visible">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+           
+        </div>
+
+        <h3>Overflow hidden</h3>
+        <div class="overflow" id="overflow-hidden">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+
+        </div>
+
+        <h3>Overflow scroll</h3>
+        <div class="overflow" id="overflow-scroll">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ullam asperiores dignissimos rerum ipsa, neque eaque, minus exercitationem ipsam ex quam debitis at unde recusandae non distinctio in cupiditate.</p>
+        </div>
+    </section>
+
+    <h3>Box Shadow</h3>
+
+    <div class="box pink" id="shadow">Box Shadow</div>
+  </body>
+</html>
