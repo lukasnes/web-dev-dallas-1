@@ -1,6 +1,13 @@
+let myName = "Lukas"
+
 const greetingMachine = (greeting, name) => {
     return greeting(name)
 }
+const addFive = (num) => {
+    return 5 + num
+}
+greetingMachine(addFive, myName)
+
 const yo = (name) => {
     return `Yo, ${name}!`
 }
@@ -81,3 +88,18 @@ while(starshipEnterprise.hull > 0 || milleniumFalcon.hull > 0){
 
 starshipEnterprise.hull <= 0 ? console.log(`The Starship Enterprise is no more.`) : console.log(`The Millenium Falcon is no more.`)
 console.log(milleniumFalcon.hull)
+
+
+let arr = []
+arr.push(4)
+arr.push(7)
+arr.push(20)
+console.log(arr)
+let evens = []
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] % 2 === 0){
+        console.log(arr[i])
+        evens.push(arr[i])
+    }
+}
+console.log(evens)
