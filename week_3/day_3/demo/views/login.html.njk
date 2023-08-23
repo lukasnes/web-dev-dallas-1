@@ -1,0 +1,16 @@
+{% extends 'base.html.njk' %}
+
+{% block title %}
+    Login Form
+{% endblock title %}
+
+{% block nav %}
+    <div></div>
+{% endblock nav %}
+
+{% block body %}
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Enter your username..." required/>
+        <button type="submit">Submit</button>
+    </form>
+{% endblock body %}

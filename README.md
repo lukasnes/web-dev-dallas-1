@@ -23,3 +23,6 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 2 Day 1` | JS Basics 3 | https://strategiced.zoom.us/rec/share/72Aiwbdj_K2VsbcTSagHe9Etj3Q9mbWBJ-RZIrlf1-7TOw7wazolIRV9oakCbnQK.7CA7zBhKEKfstLky |
 | `Week 2 Day 3` | DOM Manipulation | https://strategiced.zoom.us/rec/share/KIOGpgQcfrWNXLJGPDO1eAekiLFHG4UiTrqYhE2VUJPXTR6KGPfB0SV8k2A-ewm8.KVtM_E8j5vN0EHYk |
 | `Week 2 Day 4` | Classes & OOP | https://strategiced.zoom.us/rec/share/BonYCa57sjZM_ZOgRE5lQfenIDiIaVwmZL1SXBwi_dgPLzCZRgYXZwZj3frOLz05.i2FFpYDlTUOiT6jJ |
+| `Week 3 Day 1` | Modular JS | https://strategiced.zoom.us/rec/share/5SBxnyQd3NcVTSjywEk-_cerVdmSDeu5kT440vK-HdCwq7uHbCUmmdnVUC5YvGgh.1n2c3e_r1QMxcNA5 |
+| `Week 3 Day 2` | HTML Templates | https://strategiced.zoom.us/rec/share/lLK-E9XmKtLpFTsPHp74OmjqCIaU0iANkV8L8YaIhJKGKidPetlsIDVJEDam43gJ.1ANF3DqneI3hxKBG |
+| `Week 3 Day 3` | URLs & Session | https://strategiced.zoom.us/rec/share/jEAS6F0CwHcTMs6BjcFg3b3jXdbgnx-QvDTLYmdK0OmMZW5YbRFVXaGu3ok1wB-r.PKucKhdclJTAw1s2 |

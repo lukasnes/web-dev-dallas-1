@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock title %}</title>
+    <style>
+        header{
+            height: 50px;
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #heading{
+            color: white;
+        }
+        a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="icon"></div>
+        <h1 id="heading">Login or Logout?</h1>
+        {% block nav %}{% endblock nav %}
+    </header>
+
+    <main>
+        {% block body %}{% endblock body %}
+    </main>
+</body>
+</html>

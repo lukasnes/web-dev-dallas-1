@@ -1,0 +1,25 @@
+{% extends 'base.html.njk' %}
+
+{% block title %}
+    {% if username %}
+        Welcome, {{ username }}!
+    {% else %}
+        Welcome home!
+    {% endif %}
+{% endblock title %}
+
+{% block nav %}
+    {% if username %}
+        <a href="/logout">Logout</a>
+    {% else %}
+        <a href="/login">Login</a>
+    {% endif %}
+{% endblock nav %}
+
+{% block body %}
+    {% if username %}
+        <h2>Hello, {{ username }}, good to see you again!</h2>
+    {% else %}
+        <h2>I don't know you, that's my purse!</h2>
+    {% endif %}
+{% endblock body %}
