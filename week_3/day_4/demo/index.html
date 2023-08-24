@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APIs & AJAX Demo</title>
+  </head>
+  <body>
+
+    <h2>Random Star Wars Movie</h2>
+    <p id="star-wars-movie"></p>
+
+    <script type="module" src="star-wars.js"></script>
+
+    <h2>Pokemon</h2>
+    <p>How many Pokemon? <input type="text" id="num-pokemon"/></p>
+    <button id="get-pokemon">Get Pokemon</button>
+    <ul id="pokemon-list"></ul>
+
+    <script type="module" src="pokemon-async-await.js"></script>
+    <!-- <script type="module" src="pokemon-async-await.js"></script> -->
+
+    <h2>Order Cookies</h2>
+
+    <form id="order-form">
+      <p>
+        <label>Quantity
+          <input type="number" name="qty" id="qty-field">
+        </label>
+      </p>
+
+      <p>
+        <label>Cookie Type
+          <select id="cookie-type-field" name="cookie-type">
+            <option>Chocolate Chip</option>
+            <option>Snickerdoodle</option>
+          </select>
+        </label>
+      </p>
+
+      <button type="submit" id="order-form-button">Order</button>
+    </form>
+    <br>
+    <div id="order-status"></div>
+    <div id="order-total"></div>
+    <script type="module" src="order-cookies.js"></script>
+  </body>
+</html>
