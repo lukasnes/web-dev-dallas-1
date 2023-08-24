@@ -1,0 +1,9 @@
+{
+    "name":"Martha",
+    "age": 47,
+    "email":"Martha@mail.com",
+    "address":"123 fake BLVD",
+    "favFood":"Hamburgers",
+    "favAnimal":"Cat",
+    "phone":"(123) 456-7890"
+}
