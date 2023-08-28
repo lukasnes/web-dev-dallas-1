@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Muffins",
+        "imgURL":"./public/img/kitty.jpg",
+        "kittenId": 3,
+        "likes": 23 
+    },
+    {
+        "name":"Fluffy",
+        "imgURL":"./public/img/kitty-2.jpg",
+        "kittenId": 2,
+        "likes": 12
+    },
+    {
+        "name":"Jerky",
+        "imgURL":"./public/img/kitty-3.jpg",
+        "kittenId": 1,
+        "likes": 15
+    },
+    {
+        "name":"Mittens",
+        "imgURL":"./public/img/kitty-4.jpg",
+        "kittenId": 4,
+        "likes": 18
+    },
+    {
+        "name":"Rascal",
+        "imgURL":"./public/img/kitty-5.jpg",
+        "kittenId": 5,
+        "likes": 9
+    }
+]

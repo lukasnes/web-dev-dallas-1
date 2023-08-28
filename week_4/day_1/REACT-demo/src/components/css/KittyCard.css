@@ -1,0 +1,44 @@
+.kitty-card {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(147,230,22);
+    border: 5px solid white;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.kitty-img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.kitty-card h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.likes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.likes-container p {
+    font-size: 1.5em;
+    color: white
+}
+
+.likes-container button {
+    background-color: orangered;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
