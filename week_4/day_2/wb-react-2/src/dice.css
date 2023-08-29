@@ -1,0 +1,31 @@
+/* The die is a large, rounded button */
+
+.die {
+  color: white;
+  background-color: darkred;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  position: relative;
+  margin: 5px;
+}
+
+/* Get rid of ugly outline around currently-focused button */
+
+.die:focus {
+  outline: none;
+}
+
+/* Show the # of sides of a die at the top left */
+
+.die i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Show die results large in the center */
+
+.die b {
+  font-size: 40px;
+}
